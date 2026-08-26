@@ -1,0 +1,645 @@
+[
+  {
+    "id": "L01",
+    "stage": "Anfänger",
+    "module": "KI-Grundlagen",
+    "title": "KI-Systeme einordnen",
+    "minutes": 15,
+    "must": true,
+    "explanation": "KI ist ein Oberbegriff für Systeme, die Aufgaben wie Erkennen, Vorhersagen, Generieren oder Entscheiden unterstützen. Generative KI erzeugt neue Inhalte; klassische Automatisierung folgt definierten Regeln.",
+    "example": "Truja nutzt KI zur Strukturierung einer Kundenanfrage, während ein Power-Automate-Flow die freigegebene Anfrage regelbasiert in einer Microsoft List anlegt.",
+    "summary": [
+      "KI ist kein einzelnes Produkt.",
+      "Generative KI arbeitet probabilistisch.",
+      "Folgenreiche Ergebnisse benötigen menschliche Kontrolle."
+    ],
+    "graphic": "Eingabe → KI-Modell → Vorschlag → menschliche Prüfung → Aktion",
+    "cards": [
+      {
+        "question": "Was ist der Kern von KI-Grundlagen?",
+        "answer": "KI ist kein einzelnes Produkt.",
+        "detail": "KI ist ein Oberbegriff für Systeme, die Aufgaben wie Erkennen, Vorhersagen, Generieren oder Entscheiden unterstützen. Generative KI erzeugt neue Inhalte; klassische Automatisierung folgt definierten Regeln.",
+        "example": "Truja nutzt KI zur Strukturierung einer Kundenanfrage, während ein Power-Automate-Flow die freigegebene Anfrage regelbasiert in einer Microsoft List anlegt."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für KI-Grundlagen?",
+        "answer": "Truja nutzt KI zur Strukturierung einer Kundenanfrage, während ein Power-Automate-Flow die freigegebene Anfrage regelbasiert in einer Microsoft List anlegt.",
+        "detail": "Generative KI arbeitet probabilistisch.",
+        "example": "Truja nutzt KI zur Strukturierung einer Kundenanfrage, während ein Power-Automate-Flow die freigegebene Anfrage regelbasiert in einer Microsoft List anlegt."
+      }
+    ],
+    "keywords": [
+      "KI",
+      "generative KI",
+      "Automatisierung"
+    ]
+  },
+  {
+    "id": "L02",
+    "stage": "Anfänger",
+    "module": "LLM",
+    "title": "Wie Sprachmodelle arbeiten",
+    "minutes": 20,
+    "must": true,
+    "explanation": "Ein Large Language Model verarbeitet Text in Tokens und berechnet wahrscheinliche Fortsetzungen. Kontext, Systemregeln, Werkzeuge und Wissensquellen beeinflussen das Ergebnis.",
+    "example": "Copilot fasst eine Projektkorrespondenz zusammen, sofern die berechtigte Person auf die Inhalte zugreifen darf.",
+    "summary": [
+      "LLMs erzeugen plausible Sprache.",
+      "Kontext ist begrenzt und entscheidend.",
+      "Plausibel bedeutet nicht automatisch richtig."
+    ],
+    "graphic": "Dokumente → Retrieval → Kontextfenster → LLM → Antwort mit Prüfung",
+    "cards": [
+      {
+        "question": "Was ist der Kern von LLM?",
+        "answer": "LLMs erzeugen plausible Sprache.",
+        "detail": "Ein Large Language Model verarbeitet Text in Tokens und berechnet wahrscheinliche Fortsetzungen. Kontext, Systemregeln, Werkzeuge und Wissensquellen beeinflussen das Ergebnis.",
+        "example": "Copilot fasst eine Projektkorrespondenz zusammen, sofern die berechtigte Person auf die Inhalte zugreifen darf."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für LLM?",
+        "answer": "Copilot fasst eine Projektkorrespondenz zusammen, sofern die berechtigte Person auf die Inhalte zugreifen darf.",
+        "detail": "Kontext ist begrenzt und entscheidend.",
+        "example": "Copilot fasst eine Projektkorrespondenz zusammen, sofern die berechtigte Person auf die Inhalte zugreifen darf."
+      }
+    ],
+    "keywords": [
+      "LLM",
+      "Token",
+      "Kontext",
+      "Halluzination",
+      "RAG"
+    ]
+  },
+  {
+    "id": "L03",
+    "stage": "Anfänger",
+    "module": "Prompting",
+    "title": "Klare Arbeitsaufträge formulieren",
+    "minutes": 18,
+    "must": true,
+    "explanation": "Ein guter Prompt beschreibt Rolle, Ziel, Kontext, Grenzen, gewünschtes Format und Qualitätskriterien. Iteration und Gegenprüfung sind wichtiger als Zauberformeln.",
+    "example": "„Vergleiche zwei Nachunternehmerangebote positionsweise. Nenne Abweichungen, fehlende Leistungen und offene Rückfragen. Keine Vergabeempfehlung.“",
+    "summary": [
+      "Ziel und Ausgabeformat explizit machen.",
+      "Daten und Grenzen nennen.",
+      "Ergebnisse prüfen und verbessern."
+    ],
+    "graphic": "Rolle + Aufgabe + Kontext + Grenzen + Ausgabe + Prüfkriterien",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Prompting?",
+        "answer": "Ziel und Ausgabeformat explizit machen.",
+        "detail": "Ein guter Prompt beschreibt Rolle, Ziel, Kontext, Grenzen, gewünschtes Format und Qualitätskriterien. Iteration und Gegenprüfung sind wichtiger als Zauberformeln.",
+        "example": "„Vergleiche zwei Nachunternehmerangebote positionsweise. Nenne Abweichungen, fehlende Leistungen und offene Rückfragen. Keine Vergabeempfehlung.“"
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Prompting?",
+        "answer": "„Vergleiche zwei Nachunternehmerangebote positionsweise. Nenne Abweichungen, fehlende Leistungen und offene Rückfragen. Keine Vergabeempfehlung.“",
+        "detail": "Daten und Grenzen nennen.",
+        "example": "„Vergleiche zwei Nachunternehmerangebote positionsweise. Nenne Abweichungen, fehlende Leistungen und offene Rückfragen. Keine Vergabeempfehlung.“"
+      }
+    ],
+    "keywords": [
+      "Prompt",
+      "Context Engineering",
+      "Few-shot"
+    ]
+  },
+  {
+    "id": "L04",
+    "stage": "Anfänger",
+    "module": "Microsoft 365 Copilot",
+    "title": "Copilot produktiv einsetzen",
+    "minutes": 25,
+    "must": true,
+    "explanation": "Microsoft 365 Copilot unterstützt in den Microsoft-365-Arbeitsabläufen. Die Qualität hängt von Aufgabe, verfügbaren Inhalten, Berechtigungen und Prüfung ab.",
+    "example": "Projektvorbereitung: relevante Dokumente finden, offene Punkte strukturieren und eine Besprechungsagenda entwerfen.",
+    "summary": [
+      "Copilot ist Assistenz, nicht Verantwortlicher.",
+      "Berechtigungen begrenzen Sichtbarkeit.",
+      "Wiederverwendbare Prompts standardisieren Arbeit."
+    ],
+    "graphic": "M365-Inhalte + Identität/Berechtigung → Copilot → Entwurf → Freigabe",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Microsoft 365 Copilot?",
+        "answer": "Copilot ist Assistenz, nicht Verantwortlicher.",
+        "detail": "Microsoft 365 Copilot unterstützt in den Microsoft-365-Arbeitsabläufen. Die Qualität hängt von Aufgabe, verfügbaren Inhalten, Berechtigungen und Prüfung ab.",
+        "example": "Projektvorbereitung: relevante Dokumente finden, offene Punkte strukturieren und eine Besprechungsagenda entwerfen."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Microsoft 365 Copilot?",
+        "answer": "Projektvorbereitung: relevante Dokumente finden, offene Punkte strukturieren und eine Besprechungsagenda entwerfen.",
+        "detail": "Berechtigungen begrenzen Sichtbarkeit.",
+        "example": "Projektvorbereitung: relevante Dokumente finden, offene Punkte strukturieren und eine Besprechungsagenda entwerfen."
+      }
+    ],
+    "keywords": [
+      "Copilot",
+      "Microsoft Graph",
+      "Berechtigung"
+    ]
+  },
+  {
+    "id": "L05",
+    "stage": "Anfänger",
+    "module": "Daten & Wissen",
+    "title": "Daten für KI nutzbar machen",
+    "minutes": 22,
+    "must": true,
+    "explanation": "Dateien, strukturierte Datensätze und Metadaten erfüllen verschiedene Aufgaben. Verbindliche Quellen, eindeutige Projektnummern und gepflegte Inhalte verbessern Auffindbarkeit und Verlässlichkeit.",
+    "example": "Eine SharePoint-Bibliothek nutzt Projektnummer, Baustellenadresse, Dokumentart, Status und Gültigkeit als Metadaten.",
+    "summary": [
+      "Eine führende Quelle je Sachverhalt.",
+      "Metadaten statt nur tiefer Ordner.",
+      "Dubletten und veraltete Inhalte bereinigen."
+    ],
+    "graphic": "Quelle → Metadaten → Berechtigung → Suche/RAG → Antwort",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Daten & Wissen?",
+        "answer": "Eine führende Quelle je Sachverhalt.",
+        "detail": "Dateien, strukturierte Datensätze und Metadaten erfüllen verschiedene Aufgaben. Verbindliche Quellen, eindeutige Projektnummern und gepflegte Inhalte verbessern Auffindbarkeit und Verlässlichkeit.",
+        "example": "Eine SharePoint-Bibliothek nutzt Projektnummer, Baustellenadresse, Dokumentart, Status und Gültigkeit als Metadaten."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Daten & Wissen?",
+        "answer": "Eine SharePoint-Bibliothek nutzt Projektnummer, Baustellenadresse, Dokumentart, Status und Gültigkeit als Metadaten.",
+        "detail": "Metadaten statt nur tiefer Ordner.",
+        "example": "Eine SharePoint-Bibliothek nutzt Projektnummer, Baustellenadresse, Dokumentart, Status und Gültigkeit als Metadaten."
+      }
+    ],
+    "keywords": [
+      "Metadaten",
+      "führendes System",
+      "Datenqualität"
+    ]
+  },
+  {
+    "id": "L06",
+    "stage": "Fortgeschritten",
+    "module": "Agentic AI",
+    "title": "Vom Assistenten zum handelnden System",
+    "minutes": 25,
+    "must": true,
+    "explanation": "Agentische Systeme verfolgen ein Ziel, planen Teilschritte, nutzen Werkzeuge, prüfen Zwischenstände und handeln innerhalb eines definierten Rahmens.",
+    "example": "Ein Agent liest eine neue Anfrage, schlägt Projektzuordnung und nächste Schritte vor, führt aber keine externe Kommunikation ohne Freigabe aus.",
+    "summary": [
+      "Ziele und Grenzen definieren.",
+      "Werkzeugrechte minimieren.",
+      "Status, Protokoll und Abbruchweg vorsehen."
+    ],
+    "graphic": "Ziel → Plan → Tool-Aufruf → Beobachtung → Prüfung → nächster Schritt",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Agentic AI?",
+        "answer": "Ziele und Grenzen definieren.",
+        "detail": "Agentische Systeme verfolgen ein Ziel, planen Teilschritte, nutzen Werkzeuge, prüfen Zwischenstände und handeln innerhalb eines definierten Rahmens.",
+        "example": "Ein Agent liest eine neue Anfrage, schlägt Projektzuordnung und nächste Schritte vor, führt aber keine externe Kommunikation ohne Freigabe aus."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Agentic AI?",
+        "answer": "Ein Agent liest eine neue Anfrage, schlägt Projektzuordnung und nächste Schritte vor, führt aber keine externe Kommunikation ohne Freigabe aus.",
+        "detail": "Werkzeugrechte minimieren.",
+        "example": "Ein Agent liest eine neue Anfrage, schlägt Projektzuordnung und nächste Schritte vor, führt aber keine externe Kommunikation ohne Freigabe aus."
+      }
+    ],
+    "keywords": [
+      "Agent",
+      "Tool Calling",
+      "Planung",
+      "Memory"
+    ]
+  },
+  {
+    "id": "L07",
+    "stage": "Fortgeschritten",
+    "module": "Agentic Coding",
+    "title": "Software mit Coding-Agenten entwickeln",
+    "minutes": 30,
+    "must": true,
+    "explanation": "Beim Agentic Coding erhält ein Coding-Agent Anforderungen, untersucht Dateien, plant Änderungen, schreibt Code, führt Tests aus und überarbeitet Ergebnisse. Fachliche Abnahme und professionelle Betriebsverantwortung bleiben nötig.",
+    "example": "Ein Projektcockpit startet mit Testdaten, dann lesendem SharePoint-Zugriff, Rollen, Validierung und Protokollierung.",
+    "summary": [
+      "Kleine überprüfbare Schritte.",
+      "Tests und Versionskontrolle sind Pflicht.",
+      "Produktivbetrieb benötigt Fachkompetenz."
+    ],
+    "graphic": "Anforderung → Plan → Code → Test → Review → Deployment",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Agentic Coding?",
+        "answer": "Kleine überprüfbare Schritte.",
+        "detail": "Beim Agentic Coding erhält ein Coding-Agent Anforderungen, untersucht Dateien, plant Änderungen, schreibt Code, führt Tests aus und überarbeitet Ergebnisse. Fachliche Abnahme und professionelle Betriebsverantwortung bleiben nötig.",
+        "example": "Ein Projektcockpit startet mit Testdaten, dann lesendem SharePoint-Zugriff, Rollen, Validierung und Protokollierung."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Agentic Coding?",
+        "answer": "Ein Projektcockpit startet mit Testdaten, dann lesendem SharePoint-Zugriff, Rollen, Validierung und Protokollierung.",
+        "detail": "Tests und Versionskontrolle sind Pflicht.",
+        "example": "Ein Projektcockpit startet mit Testdaten, dann lesendem SharePoint-Zugriff, Rollen, Validierung und Protokollierung."
+      }
+    ],
+    "keywords": [
+      "Agentic Coding",
+      "Repository",
+      "Test",
+      "Git",
+      "Deployment"
+    ]
+  },
+  {
+    "id": "L08",
+    "stage": "Fortgeschritten",
+    "module": "Workflows",
+    "title": "Abläufe systematisch modellieren",
+    "minutes": 22,
+    "must": true,
+    "explanation": "Ein Workflow verbindet Trigger, Bedingungen, Aktionen, Daten, Rollen, Fehlerpfade und Freigaben. Erst ein klarer Prozess sollte automatisiert werden.",
+    "example": "Eingehende Rechnung → Projektnummer prüfen → Prüfbereich speichern → Verantwortlichen informieren.",
+    "summary": [
+      "Ist- und Soll-Prozess unterscheiden.",
+      "Fehler- und Ausnahmewege modellieren.",
+      "Verantwortliche benennen."
+    ],
+    "graphic": "Trigger ◇ Bedingung → Aktion → Freigabe → Protokoll",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Workflows?",
+        "answer": "Ist- und Soll-Prozess unterscheiden.",
+        "detail": "Ein Workflow verbindet Trigger, Bedingungen, Aktionen, Daten, Rollen, Fehlerpfade und Freigaben. Erst ein klarer Prozess sollte automatisiert werden.",
+        "example": "Eingehende Rechnung → Projektnummer prüfen → Prüfbereich speichern → Verantwortlichen informieren."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Workflows?",
+        "answer": "Eingehende Rechnung → Projektnummer prüfen → Prüfbereich speichern → Verantwortlichen informieren.",
+        "detail": "Fehler- und Ausnahmewege modellieren.",
+        "example": "Eingehende Rechnung → Projektnummer prüfen → Prüfbereich speichern → Verantwortlichen informieren."
+      }
+    ],
+    "keywords": [
+      "Trigger",
+      "Bedingung",
+      "Aktion",
+      "Fallback"
+    ]
+  },
+  {
+    "id": "L09",
+    "stage": "Fortgeschritten",
+    "module": "Power Automate",
+    "title": "Kontrollierte Prozessautomatisierung",
+    "minutes": 30,
+    "must": true,
+    "explanation": "Power Automate bildet ereignisgesteuerte und geplante Flows mit Konnektoren, Bedingungen, Genehmigungen und Fehlerbehandlung ab.",
+    "example": "Nach Freigabe einer Projektanlage werden definierte Ordner, Listeneintrag und Standardaufgaben vorbereitet.",
+    "summary": [
+      "Konnektoren und Identitäten prüfen.",
+      "Idempotenz und Fehlerbehandlung beachten.",
+      "Produktive Änderungen protokollieren."
+    ],
+    "graphic": "Trigger → Connector → Condition → Approval → Action → Log",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Power Automate?",
+        "answer": "Konnektoren und Identitäten prüfen.",
+        "detail": "Power Automate bildet ereignisgesteuerte und geplante Flows mit Konnektoren, Bedingungen, Genehmigungen und Fehlerbehandlung ab.",
+        "example": "Nach Freigabe einer Projektanlage werden definierte Ordner, Listeneintrag und Standardaufgaben vorbereitet."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Power Automate?",
+        "answer": "Nach Freigabe einer Projektanlage werden definierte Ordner, Listeneintrag und Standardaufgaben vorbereitet.",
+        "detail": "Idempotenz und Fehlerbehandlung beachten.",
+        "example": "Nach Freigabe einer Projektanlage werden definierte Ordner, Listeneintrag und Standardaufgaben vorbereitet."
+      }
+    ],
+    "keywords": [
+      "Power Automate",
+      "Connector",
+      "Approval",
+      "Idempotenz"
+    ]
+  },
+  {
+    "id": "L10",
+    "stage": "Fortgeschritten",
+    "module": "Power Platform",
+    "title": "Apps, Daten und Automatisierung verbinden",
+    "minutes": 28,
+    "must": true,
+    "explanation": "Power Apps stellt Oberflächen bereit, Power Automate orchestriert Abläufe, Dataverse oder Lists speichern strukturierte Daten und Copilot Studio kann dialogorientierte Agenten abbilden.",
+    "example": "Mobile Baustellenerfassung mit Power App, List/Dataverse, Fotoablage und Freigabeflow.",
+    "summary": [
+      "Komponente nach Aufgabe wählen.",
+      "Datenmodell vor Oberfläche.",
+      "Umgebungen und Governance berücksichtigen."
+    ],
+    "graphic": "Power App ↔ Datenquelle ↔ Flow ↔ Copilot/Agent",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Power Platform?",
+        "answer": "Komponente nach Aufgabe wählen.",
+        "detail": "Power Apps stellt Oberflächen bereit, Power Automate orchestriert Abläufe, Dataverse oder Lists speichern strukturierte Daten und Copilot Studio kann dialogorientierte Agenten abbilden.",
+        "example": "Mobile Baustellenerfassung mit Power App, List/Dataverse, Fotoablage und Freigabeflow."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Power Platform?",
+        "answer": "Mobile Baustellenerfassung mit Power App, List/Dataverse, Fotoablage und Freigabeflow.",
+        "detail": "Datenmodell vor Oberfläche.",
+        "example": "Mobile Baustellenerfassung mit Power App, List/Dataverse, Fotoablage und Freigabeflow."
+      }
+    ],
+    "keywords": [
+      "Power Apps",
+      "Dataverse",
+      "Lists",
+      "Environment"
+    ]
+  },
+  {
+    "id": "L11",
+    "stage": "Fortgeschritten",
+    "module": "Copilot Studio",
+    "title": "Fachliche Copilots gestalten",
+    "minutes": 30,
+    "must": true,
+    "explanation": "Copilot Studio dient zur Gestaltung von Copilots mit Themen, Wissen, Aktionen und Governance. Ein guter Copilot hat klaren Zweck, abgegrenzte Quellen und sichere Aktionen.",
+    "example": "Interner Projektassistent beantwortet Fragen aus freigegebenen Standards und startet nur genehmigte Aktionen.",
+    "summary": [
+      "Zweck und Zielgruppe definieren.",
+      "Wissen und Aktionen trennen.",
+      "Antworten und Berechtigungen testen."
+    ],
+    "graphic": "Nutzer → Topic/Orchestrierung → Wissen oder Aktion → Antwort",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Copilot Studio?",
+        "answer": "Zweck und Zielgruppe definieren.",
+        "detail": "Copilot Studio dient zur Gestaltung von Copilots mit Themen, Wissen, Aktionen und Governance. Ein guter Copilot hat klaren Zweck, abgegrenzte Quellen und sichere Aktionen.",
+        "example": "Interner Projektassistent beantwortet Fragen aus freigegebenen Standards und startet nur genehmigte Aktionen."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Copilot Studio?",
+        "answer": "Interner Projektassistent beantwortet Fragen aus freigegebenen Standards und startet nur genehmigte Aktionen.",
+        "detail": "Wissen und Aktionen trennen.",
+        "example": "Interner Projektassistent beantwortet Fragen aus freigegebenen Standards und startet nur genehmigte Aktionen."
+      }
+    ],
+    "keywords": [
+      "Copilot Studio",
+      "Topic",
+      "Knowledge",
+      "Action"
+    ]
+  },
+  {
+    "id": "L12",
+    "stage": "Fortgeschritten",
+    "module": "KI-Strategie",
+    "title": "Von Ideen zur priorisierten Roadmap",
+    "minutes": 25,
+    "must": true,
+    "explanation": "KI-Strategie verbindet Geschäftsziele, Prozesse, Daten, Menschen, Technik, Governance und messbaren Nutzen. Sie beginnt nicht mit einer Werkzeugliste.",
+    "example": "Truja priorisiert Projektwissen, Angebotsprüfung und Kommunikation nach Nutzen, Machbarkeit und Risiko.",
+    "summary": [
+      "Geschäftsproblem zuerst.",
+      "Piloten begrenzen.",
+      "Skalierung nach gemessener Wirkung."
+    ],
+    "graphic": "Ziel → Use Cases → Bewertung → Pilot → Abnahme → Skalierung",
+    "cards": [
+      {
+        "question": "Was ist der Kern von KI-Strategie?",
+        "answer": "Geschäftsproblem zuerst.",
+        "detail": "KI-Strategie verbindet Geschäftsziele, Prozesse, Daten, Menschen, Technik, Governance und messbaren Nutzen. Sie beginnt nicht mit einer Werkzeugliste.",
+        "example": "Truja priorisiert Projektwissen, Angebotsprüfung und Kommunikation nach Nutzen, Machbarkeit und Risiko."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für KI-Strategie?",
+        "answer": "Truja priorisiert Projektwissen, Angebotsprüfung und Kommunikation nach Nutzen, Machbarkeit und Risiko.",
+        "detail": "Piloten begrenzen.",
+        "example": "Truja priorisiert Projektwissen, Angebotsprüfung und Kommunikation nach Nutzen, Machbarkeit und Risiko."
+      }
+    ],
+    "keywords": [
+      "Use Case",
+      "KPI",
+      "Roadmap",
+      "TCO"
+    ]
+  },
+  {
+    "id": "L13",
+    "stage": "Experte",
+    "module": "Agentenarchitektur",
+    "title": "Agenten sicher entwerfen",
+    "minutes": 35,
+    "must": true,
+    "explanation": "Eine Agentenarchitektur definiert Orchestrierung, Modell, Werkzeuge, Wissenszugriff, Zustände, Identitäten, Policies, Observability und Fallbacks.",
+    "example": "Ein Angebotsprüfagent darf Angebote lesen und Abweichungen markieren, aber nichts bestellen oder versenden.",
+    "summary": [
+      "Least Privilege für Tools.",
+      "Zustände und Übergaben explizit.",
+      "Observability und Abbruch vorsehen."
+    ],
+    "graphic": "UI → Orchestrator → Model ↔ Tools/RAG → Policy → Audit",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Agentenarchitektur?",
+        "answer": "Least Privilege für Tools.",
+        "detail": "Eine Agentenarchitektur definiert Orchestrierung, Modell, Werkzeuge, Wissenszugriff, Zustände, Identitäten, Policies, Observability und Fallbacks.",
+        "example": "Ein Angebotsprüfagent darf Angebote lesen und Abweichungen markieren, aber nichts bestellen oder versenden."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Agentenarchitektur?",
+        "answer": "Ein Angebotsprüfagent darf Angebote lesen und Abweichungen markieren, aber nichts bestellen oder versenden.",
+        "detail": "Zustände und Übergaben explizit.",
+        "example": "Ein Angebotsprüfagent darf Angebote lesen und Abweichungen markieren, aber nichts bestellen oder versenden."
+      }
+    ],
+    "keywords": [
+      "Orchestrator",
+      "Policy",
+      "Observability",
+      "Guardrail"
+    ]
+  },
+  {
+    "id": "L14",
+    "stage": "Experte",
+    "module": "Multi-Agent-Systeme",
+    "title": "Mehrere Spezialagenten koordinieren",
+    "minutes": 35,
+    "must": false,
+    "explanation": "Multi-Agent-Systeme teilen Aufgaben auf spezialisierte Rollen. Der zusätzliche Koordinationsaufwand lohnt nur bei klarer Modularität und kontrollierbaren Übergaben.",
+    "example": "Ein Analyseagent extrahiert Positionen, ein Prüfagent vergleicht Regeln, ein Berichtagent formuliert den Entwurf.",
+    "summary": [
+      "Nicht für jede Aufgabe erforderlich.",
+      "Übergabeformate standardisieren.",
+      "Fehler können sich vervielfachen."
+    ],
+    "graphic": "Supervisor → Analyseagent → Prüfagent → Berichtagent → Human Gate",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Multi-Agent-Systeme?",
+        "answer": "Nicht für jede Aufgabe erforderlich.",
+        "detail": "Multi-Agent-Systeme teilen Aufgaben auf spezialisierte Rollen. Der zusätzliche Koordinationsaufwand lohnt nur bei klarer Modularität und kontrollierbaren Übergaben.",
+        "example": "Ein Analyseagent extrahiert Positionen, ein Prüfagent vergleicht Regeln, ein Berichtagent formuliert den Entwurf."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Multi-Agent-Systeme?",
+        "answer": "Ein Analyseagent extrahiert Positionen, ein Prüfagent vergleicht Regeln, ein Berichtagent formuliert den Entwurf.",
+        "detail": "Übergabeformate standardisieren.",
+        "example": "Ein Analyseagent extrahiert Positionen, ein Prüfagent vergleicht Regeln, ein Berichtagent formuliert den Entwurf."
+      }
+    ],
+    "keywords": [
+      "Multi-Agent",
+      "Supervisor",
+      "Handoff"
+    ]
+  },
+  {
+    "id": "L15",
+    "stage": "Experte",
+    "module": "Tool Calling",
+    "title": "Werkzeugaufrufe kontrollieren",
+    "minutes": 30,
+    "must": true,
+    "explanation": "Beim Tool Calling wählt ein Modell eine freigegebene Funktion und erzeugt strukturierte Parameter. Die Anwendung validiert, autorisiert, führt aus und gibt das Ergebnis zurück.",
+    "example": "„Projekt 1001694 suchen“ ruft eine lesende Suchfunktion auf. Änderungen erfordern separate Rechte und Freigabe.",
+    "summary": [
+      "Schema validieren.",
+      "Identität und Berechtigung prüfen.",
+      "Seiteneffekte klar kennzeichnen."
+    ],
+    "graphic": "LLM → Tool-Schema → Validierung → Autorisierung → Ausführung → Ergebnis",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Tool Calling?",
+        "answer": "Schema validieren.",
+        "detail": "Beim Tool Calling wählt ein Modell eine freigegebene Funktion und erzeugt strukturierte Parameter. Die Anwendung validiert, autorisiert, führt aus und gibt das Ergebnis zurück.",
+        "example": "„Projekt 1001694 suchen“ ruft eine lesende Suchfunktion auf. Änderungen erfordern separate Rechte und Freigabe."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Tool Calling?",
+        "answer": "„Projekt 1001694 suchen“ ruft eine lesende Suchfunktion auf. Änderungen erfordern separate Rechte und Freigabe.",
+        "detail": "Identität und Berechtigung prüfen.",
+        "example": "„Projekt 1001694 suchen“ ruft eine lesende Suchfunktion auf. Änderungen erfordern separate Rechte und Freigabe."
+      }
+    ],
+    "keywords": [
+      "Function Calling",
+      "JSON Schema",
+      "Authorization"
+    ]
+  },
+  {
+    "id": "L16",
+    "stage": "Experte",
+    "module": "KI-Governance",
+    "title": "Verantwortliche KI im Unternehmen",
+    "minutes": 30,
+    "must": true,
+    "explanation": "Governance legt freigegebene Systeme, Datenregeln, Rollen, Prüfpflichten, Dokumentation, Schulungen, Vorfälle und Lebenszyklus fest.",
+    "example": "Truja führt ein Tool-Register, Schutzklassen, Freigabestufen und regelmäßige Überprüfung ein.",
+    "summary": [
+      "Governance muss praktisch nutzbar sein.",
+      "Risiko bestimmt Kontrolldichte.",
+      "Menschen bleiben verantwortlich."
+    ],
+    "graphic": "Inventar → Risiko → Freigabe → Betrieb → Monitoring → Review",
+    "cards": [
+      {
+        "question": "Was ist der Kern von KI-Governance?",
+        "answer": "Governance muss praktisch nutzbar sein.",
+        "detail": "Governance legt freigegebene Systeme, Datenregeln, Rollen, Prüfpflichten, Dokumentation, Schulungen, Vorfälle und Lebenszyklus fest.",
+        "example": "Truja führt ein Tool-Register, Schutzklassen, Freigabestufen und regelmäßige Überprüfung ein."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für KI-Governance?",
+        "answer": "Truja führt ein Tool-Register, Schutzklassen, Freigabestufen und regelmäßige Überprüfung ein.",
+        "detail": "Risiko bestimmt Kontrolldichte.",
+        "example": "Truja führt ein Tool-Register, Schutzklassen, Freigabestufen und regelmäßige Überprüfung ein."
+      }
+    ],
+    "keywords": [
+      "Governance",
+      "Risiko",
+      "DPIA",
+      "Human in the Loop"
+    ]
+  },
+  {
+    "id": "L17",
+    "stage": "Experte",
+    "module": "Automatisierungsdesign",
+    "title": "Robuste End-to-End-Lösungen",
+    "minutes": 35,
+    "must": true,
+    "explanation": "Robustes Design berücksichtigt Datenverträge, Wiederholbarkeit, Timeouts, Fehlerwarteschlangen, Rollback, Monitoring und manuellen Ersatzbetrieb.",
+    "example": "Ein Rechnungsflow legt bei fehlender Projektnummer keinen Datensatz blind an, sondern erzeugt einen Klärfall.",
+    "summary": [
+      "Happy Path reicht nicht.",
+      "Ausnahmen sind fachlicher Kern.",
+      "Betriebsfähigkeit ist Teil des Designs."
+    ],
+    "graphic": "Event → Validate → Process → Approve → Commit | Exception Queue",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Automatisierungsdesign?",
+        "answer": "Happy Path reicht nicht.",
+        "detail": "Robustes Design berücksichtigt Datenverträge, Wiederholbarkeit, Timeouts, Fehlerwarteschlangen, Rollback, Monitoring und manuellen Ersatzbetrieb.",
+        "example": "Ein Rechnungsflow legt bei fehlender Projektnummer keinen Datensatz blind an, sondern erzeugt einen Klärfall."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Automatisierungsdesign?",
+        "answer": "Ein Rechnungsflow legt bei fehlender Projektnummer keinen Datensatz blind an, sondern erzeugt einen Klärfall.",
+        "detail": "Ausnahmen sind fachlicher Kern.",
+        "example": "Ein Rechnungsflow legt bei fehlender Projektnummer keinen Datensatz blind an, sondern erzeugt einen Klärfall."
+      }
+    ],
+    "keywords": [
+      "Retry",
+      "Timeout",
+      "Rollback",
+      "Dead Letter Queue"
+    ]
+  },
+  {
+    "id": "L18",
+    "stage": "Experte",
+    "module": "Enterprise-Einführung",
+    "title": "KI unternehmensweit skalieren",
+    "minutes": 40,
+    "must": true,
+    "explanation": "Skalierung benötigt Portfolio-Steuerung, Plattformstandards, Ownership, Schulung, Support, Messung und Change Management.",
+    "example": "Nach erfolgreichem Pilot werden Standards, Rollen, Betriebshandbuch und Schulungspaket definiert.",
+    "summary": [
+      "Plattform und Governance gemeinsam entwickeln.",
+      "Adoption aktiv begleiten.",
+      "Nutzen und Risiken fortlaufend messen."
+    ],
+    "graphic": "Pilot → Standard → Enablement → Rollout → Operations → Optimierung",
+    "cards": [
+      {
+        "question": "Was ist der Kern von Enterprise-Einführung?",
+        "answer": "Plattform und Governance gemeinsam entwickeln.",
+        "detail": "Skalierung benötigt Portfolio-Steuerung, Plattformstandards, Ownership, Schulung, Support, Messung und Change Management.",
+        "example": "Nach erfolgreichem Pilot werden Standards, Rollen, Betriebshandbuch und Schulungspaket definiert."
+      },
+      {
+        "question": "Welcher Praxisbezug gilt bei Truja für Enterprise-Einführung?",
+        "answer": "Nach erfolgreichem Pilot werden Standards, Rollen, Betriebshandbuch und Schulungspaket definiert.",
+        "detail": "Adoption aktiv begleiten.",
+        "example": "Nach erfolgreichem Pilot werden Standards, Rollen, Betriebshandbuch und Schulungspaket definiert."
+      }
+    ],
+    "keywords": [
+      "Operating Model",
+      "Adoption",
+      "Center of Excellence"
+    ]
+  }
+]

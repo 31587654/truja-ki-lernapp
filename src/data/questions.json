@@ -1,0 +1,1586 @@
+[
+  {
+    "id": "Q011",
+    "lessonId": "L01",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „KI-Grundlagen“ am besten zu?",
+    "options": [
+      "KI ist kein einzelnes Produkt.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "KI ist ein Oberbegriff für Systeme, die Aufgaben wie Erkennen, Vorhersagen, Generieren oder Entscheiden unterstützen. Generative KI erzeugt neue Inhalte; klassische Automatisierung folgt definierten Regeln.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q012",
+    "lessonId": "L01",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Generative KI arbeitet probabilistisch.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Generative KI arbeitet probabilistisch.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q013",
+    "lessonId": "L01",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu KI-Grundlagen. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "KI ist kein einzelnes Produkt.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Truja nutzt KI zur Strukturierung einer Kundenanfrage, während ein Power-Automate-Flow die freigegebene Anfrage regelbasiert in einer Microsoft List anlegt.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q014",
+    "lessonId": "L01",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt KI-Grundlagen am besten in die Praxis?",
+    "options": [
+      "Truja nutzt KI zur Strukturierung einer Kundenanfrage, während ein Power-Automate-Flow die freigegebene Anfrage regelbasiert in einer Microsoft List anlegt.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "KI ist ein Oberbegriff für Systeme, die Aufgaben wie Erkennen, Vorhersagen, Generieren oder Entscheiden unterstützen. Generative KI erzeugt neue Inhalte; klassische Automatisierung folgt definierten Regeln.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q015",
+    "lessonId": "L01",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu KI?",
+    "options": [
+      "KI → KI ist kein einzelnes Produkt.",
+      "KI → keine Prüfung nötig",
+      "KI → öffentliche Freigabe",
+      "KI → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "KI ist kein einzelnes Produkt.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q016",
+    "lessonId": "L01",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei KI-Grundlagen besonders sinnvoll?",
+    "options": [
+      "Folgenreiche Ergebnisse benötigen menschliche Kontrolle.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Folgenreiche Ergebnisse benötigen menschliche Kontrolle.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q021",
+    "lessonId": "L02",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „LLM“ am besten zu?",
+    "options": [
+      "LLMs erzeugen plausible Sprache.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Ein Large Language Model verarbeitet Text in Tokens und berechnet wahrscheinliche Fortsetzungen. Kontext, Systemregeln, Werkzeuge und Wissensquellen beeinflussen das Ergebnis.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q022",
+    "lessonId": "L02",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Kontext ist begrenzt und entscheidend.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Kontext ist begrenzt und entscheidend.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q023",
+    "lessonId": "L02",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu LLM. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "LLMs erzeugen plausible Sprache.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Copilot fasst eine Projektkorrespondenz zusammen, sofern die berechtigte Person auf die Inhalte zugreifen darf.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q024",
+    "lessonId": "L02",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt LLM am besten in die Praxis?",
+    "options": [
+      "Copilot fasst eine Projektkorrespondenz zusammen, sofern die berechtigte Person auf die Inhalte zugreifen darf.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Ein Large Language Model verarbeitet Text in Tokens und berechnet wahrscheinliche Fortsetzungen. Kontext, Systemregeln, Werkzeuge und Wissensquellen beeinflussen das Ergebnis.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q025",
+    "lessonId": "L02",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu LLM?",
+    "options": [
+      "LLM → LLMs erzeugen plausible Sprache.",
+      "LLM → keine Prüfung nötig",
+      "LLM → öffentliche Freigabe",
+      "LLM → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "LLMs erzeugen plausible Sprache.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q026",
+    "lessonId": "L02",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei LLM besonders sinnvoll?",
+    "options": [
+      "Plausibel bedeutet nicht automatisch richtig.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Plausibel bedeutet nicht automatisch richtig.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q031",
+    "lessonId": "L03",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Prompting“ am besten zu?",
+    "options": [
+      "Ziel und Ausgabeformat explizit machen.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Ein guter Prompt beschreibt Rolle, Ziel, Kontext, Grenzen, gewünschtes Format und Qualitätskriterien. Iteration und Gegenprüfung sind wichtiger als Zauberformeln.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q032",
+    "lessonId": "L03",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Daten und Grenzen nennen.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Daten und Grenzen nennen.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q033",
+    "lessonId": "L03",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Prompting. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Ziel und Ausgabeformat explizit machen.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "„Vergleiche zwei Nachunternehmerangebote positionsweise. Nenne Abweichungen, fehlende Leistungen und offene Rückfragen. Keine Vergabeempfehlung.“",
+    "difficulty": 2
+  },
+  {
+    "id": "Q034",
+    "lessonId": "L03",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Prompting am besten in die Praxis?",
+    "options": [
+      "„Vergleiche zwei Nachunternehmerangebote positionsweise. Nenne Abweichungen, fehlende Leistungen und offene Rückfragen. Keine Vergabeempfehlung.“",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Ein guter Prompt beschreibt Rolle, Ziel, Kontext, Grenzen, gewünschtes Format und Qualitätskriterien. Iteration und Gegenprüfung sind wichtiger als Zauberformeln.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q035",
+    "lessonId": "L03",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Prompt?",
+    "options": [
+      "Prompt → Ziel und Ausgabeformat explizit machen.",
+      "Prompt → keine Prüfung nötig",
+      "Prompt → öffentliche Freigabe",
+      "Prompt → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Ziel und Ausgabeformat explizit machen.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q036",
+    "lessonId": "L03",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Prompting besonders sinnvoll?",
+    "options": [
+      "Ergebnisse prüfen und verbessern.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Ergebnisse prüfen und verbessern.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q041",
+    "lessonId": "L04",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Microsoft 365 Copilot“ am besten zu?",
+    "options": [
+      "Copilot ist Assistenz, nicht Verantwortlicher.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Microsoft 365 Copilot unterstützt in den Microsoft-365-Arbeitsabläufen. Die Qualität hängt von Aufgabe, verfügbaren Inhalten, Berechtigungen und Prüfung ab.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q042",
+    "lessonId": "L04",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Berechtigungen begrenzen Sichtbarkeit.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Berechtigungen begrenzen Sichtbarkeit.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q043",
+    "lessonId": "L04",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Microsoft 365 Copilot. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Copilot ist Assistenz, nicht Verantwortlicher.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Projektvorbereitung: relevante Dokumente finden, offene Punkte strukturieren und eine Besprechungsagenda entwerfen.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q044",
+    "lessonId": "L04",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Microsoft 365 Copilot am besten in die Praxis?",
+    "options": [
+      "Projektvorbereitung: relevante Dokumente finden, offene Punkte strukturieren und eine Besprechungsagenda entwerfen.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Microsoft 365 Copilot unterstützt in den Microsoft-365-Arbeitsabläufen. Die Qualität hängt von Aufgabe, verfügbaren Inhalten, Berechtigungen und Prüfung ab.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q045",
+    "lessonId": "L04",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Copilot?",
+    "options": [
+      "Copilot → Copilot ist Assistenz, nicht Verantwortlicher.",
+      "Copilot → keine Prüfung nötig",
+      "Copilot → öffentliche Freigabe",
+      "Copilot → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Copilot ist Assistenz, nicht Verantwortlicher.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q046",
+    "lessonId": "L04",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Microsoft 365 Copilot besonders sinnvoll?",
+    "options": [
+      "Wiederverwendbare Prompts standardisieren Arbeit.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Wiederverwendbare Prompts standardisieren Arbeit.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q051",
+    "lessonId": "L05",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Daten & Wissen“ am besten zu?",
+    "options": [
+      "Eine führende Quelle je Sachverhalt.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Dateien, strukturierte Datensätze und Metadaten erfüllen verschiedene Aufgaben. Verbindliche Quellen, eindeutige Projektnummern und gepflegte Inhalte verbessern Auffindbarkeit und Verlässlichkeit.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q052",
+    "lessonId": "L05",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Metadaten statt nur tiefer Ordner.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Metadaten statt nur tiefer Ordner.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q053",
+    "lessonId": "L05",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Daten & Wissen. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Eine führende Quelle je Sachverhalt.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Eine SharePoint-Bibliothek nutzt Projektnummer, Baustellenadresse, Dokumentart, Status und Gültigkeit als Metadaten.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q054",
+    "lessonId": "L05",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Daten & Wissen am besten in die Praxis?",
+    "options": [
+      "Eine SharePoint-Bibliothek nutzt Projektnummer, Baustellenadresse, Dokumentart, Status und Gültigkeit als Metadaten.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Dateien, strukturierte Datensätze und Metadaten erfüllen verschiedene Aufgaben. Verbindliche Quellen, eindeutige Projektnummern und gepflegte Inhalte verbessern Auffindbarkeit und Verlässlichkeit.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q055",
+    "lessonId": "L05",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Metadaten?",
+    "options": [
+      "Metadaten → Eine führende Quelle je Sachverhalt.",
+      "Metadaten → keine Prüfung nötig",
+      "Metadaten → öffentliche Freigabe",
+      "Metadaten → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Eine führende Quelle je Sachverhalt.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q056",
+    "lessonId": "L05",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Daten & Wissen besonders sinnvoll?",
+    "options": [
+      "Dubletten und veraltete Inhalte bereinigen.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Dubletten und veraltete Inhalte bereinigen.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q061",
+    "lessonId": "L06",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Agentic AI“ am besten zu?",
+    "options": [
+      "Ziele und Grenzen definieren.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Agentische Systeme verfolgen ein Ziel, planen Teilschritte, nutzen Werkzeuge, prüfen Zwischenstände und handeln innerhalb eines definierten Rahmens.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q062",
+    "lessonId": "L06",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Werkzeugrechte minimieren.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Werkzeugrechte minimieren.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q063",
+    "lessonId": "L06",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Agentic AI. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Ziele und Grenzen definieren.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Ein Agent liest eine neue Anfrage, schlägt Projektzuordnung und nächste Schritte vor, führt aber keine externe Kommunikation ohne Freigabe aus.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q064",
+    "lessonId": "L06",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Agentic AI am besten in die Praxis?",
+    "options": [
+      "Ein Agent liest eine neue Anfrage, schlägt Projektzuordnung und nächste Schritte vor, führt aber keine externe Kommunikation ohne Freigabe aus.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Agentische Systeme verfolgen ein Ziel, planen Teilschritte, nutzen Werkzeuge, prüfen Zwischenstände und handeln innerhalb eines definierten Rahmens.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q065",
+    "lessonId": "L06",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Agent?",
+    "options": [
+      "Agent → Ziele und Grenzen definieren.",
+      "Agent → keine Prüfung nötig",
+      "Agent → öffentliche Freigabe",
+      "Agent → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Ziele und Grenzen definieren.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q066",
+    "lessonId": "L06",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Agentic AI besonders sinnvoll?",
+    "options": [
+      "Status, Protokoll und Abbruchweg vorsehen.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Status, Protokoll und Abbruchweg vorsehen.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q071",
+    "lessonId": "L07",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Agentic Coding“ am besten zu?",
+    "options": [
+      "Kleine überprüfbare Schritte.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Beim Agentic Coding erhält ein Coding-Agent Anforderungen, untersucht Dateien, plant Änderungen, schreibt Code, führt Tests aus und überarbeitet Ergebnisse. Fachliche Abnahme und professionelle Betriebsverantwortung bleiben nötig.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q072",
+    "lessonId": "L07",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Tests und Versionskontrolle sind Pflicht.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Tests und Versionskontrolle sind Pflicht.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q073",
+    "lessonId": "L07",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Agentic Coding. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Kleine überprüfbare Schritte.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Ein Projektcockpit startet mit Testdaten, dann lesendem SharePoint-Zugriff, Rollen, Validierung und Protokollierung.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q074",
+    "lessonId": "L07",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Agentic Coding am besten in die Praxis?",
+    "options": [
+      "Ein Projektcockpit startet mit Testdaten, dann lesendem SharePoint-Zugriff, Rollen, Validierung und Protokollierung.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Beim Agentic Coding erhält ein Coding-Agent Anforderungen, untersucht Dateien, plant Änderungen, schreibt Code, führt Tests aus und überarbeitet Ergebnisse. Fachliche Abnahme und professionelle Betriebsverantwortung bleiben nötig.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q075",
+    "lessonId": "L07",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Agentic Coding?",
+    "options": [
+      "Agentic Coding → Kleine überprüfbare Schritte.",
+      "Agentic Coding → keine Prüfung nötig",
+      "Agentic Coding → öffentliche Freigabe",
+      "Agentic Coding → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Kleine überprüfbare Schritte.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q076",
+    "lessonId": "L07",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Agentic Coding besonders sinnvoll?",
+    "options": [
+      "Produktivbetrieb benötigt Fachkompetenz.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Produktivbetrieb benötigt Fachkompetenz.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q081",
+    "lessonId": "L08",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Workflows“ am besten zu?",
+    "options": [
+      "Ist- und Soll-Prozess unterscheiden.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Ein Workflow verbindet Trigger, Bedingungen, Aktionen, Daten, Rollen, Fehlerpfade und Freigaben. Erst ein klarer Prozess sollte automatisiert werden.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q082",
+    "lessonId": "L08",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Fehler- und Ausnahmewege modellieren.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Fehler- und Ausnahmewege modellieren.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q083",
+    "lessonId": "L08",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Workflows. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Ist- und Soll-Prozess unterscheiden.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Eingehende Rechnung → Projektnummer prüfen → Prüfbereich speichern → Verantwortlichen informieren.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q084",
+    "lessonId": "L08",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Workflows am besten in die Praxis?",
+    "options": [
+      "Eingehende Rechnung → Projektnummer prüfen → Prüfbereich speichern → Verantwortlichen informieren.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Ein Workflow verbindet Trigger, Bedingungen, Aktionen, Daten, Rollen, Fehlerpfade und Freigaben. Erst ein klarer Prozess sollte automatisiert werden.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q085",
+    "lessonId": "L08",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Trigger?",
+    "options": [
+      "Trigger → Ist- und Soll-Prozess unterscheiden.",
+      "Trigger → keine Prüfung nötig",
+      "Trigger → öffentliche Freigabe",
+      "Trigger → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Ist- und Soll-Prozess unterscheiden.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q086",
+    "lessonId": "L08",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Workflows besonders sinnvoll?",
+    "options": [
+      "Verantwortliche benennen.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Verantwortliche benennen.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q091",
+    "lessonId": "L09",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Power Automate“ am besten zu?",
+    "options": [
+      "Konnektoren und Identitäten prüfen.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Power Automate bildet ereignisgesteuerte und geplante Flows mit Konnektoren, Bedingungen, Genehmigungen und Fehlerbehandlung ab.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q092",
+    "lessonId": "L09",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Idempotenz und Fehlerbehandlung beachten.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Idempotenz und Fehlerbehandlung beachten.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q093",
+    "lessonId": "L09",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Power Automate. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Konnektoren und Identitäten prüfen.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Nach Freigabe einer Projektanlage werden definierte Ordner, Listeneintrag und Standardaufgaben vorbereitet.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q094",
+    "lessonId": "L09",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Power Automate am besten in die Praxis?",
+    "options": [
+      "Nach Freigabe einer Projektanlage werden definierte Ordner, Listeneintrag und Standardaufgaben vorbereitet.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Power Automate bildet ereignisgesteuerte und geplante Flows mit Konnektoren, Bedingungen, Genehmigungen und Fehlerbehandlung ab.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q095",
+    "lessonId": "L09",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Power Automate?",
+    "options": [
+      "Power Automate → Konnektoren und Identitäten prüfen.",
+      "Power Automate → keine Prüfung nötig",
+      "Power Automate → öffentliche Freigabe",
+      "Power Automate → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Konnektoren und Identitäten prüfen.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q096",
+    "lessonId": "L09",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Power Automate besonders sinnvoll?",
+    "options": [
+      "Produktive Änderungen protokollieren.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Produktive Änderungen protokollieren.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q101",
+    "lessonId": "L10",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Power Platform“ am besten zu?",
+    "options": [
+      "Komponente nach Aufgabe wählen.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Power Apps stellt Oberflächen bereit, Power Automate orchestriert Abläufe, Dataverse oder Lists speichern strukturierte Daten und Copilot Studio kann dialogorientierte Agenten abbilden.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q102",
+    "lessonId": "L10",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Datenmodell vor Oberfläche.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Datenmodell vor Oberfläche.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q103",
+    "lessonId": "L10",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Power Platform. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Komponente nach Aufgabe wählen.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Mobile Baustellenerfassung mit Power App, List/Dataverse, Fotoablage und Freigabeflow.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q104",
+    "lessonId": "L10",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Power Platform am besten in die Praxis?",
+    "options": [
+      "Mobile Baustellenerfassung mit Power App, List/Dataverse, Fotoablage und Freigabeflow.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Power Apps stellt Oberflächen bereit, Power Automate orchestriert Abläufe, Dataverse oder Lists speichern strukturierte Daten und Copilot Studio kann dialogorientierte Agenten abbilden.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q105",
+    "lessonId": "L10",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Power Apps?",
+    "options": [
+      "Power Apps → Komponente nach Aufgabe wählen.",
+      "Power Apps → keine Prüfung nötig",
+      "Power Apps → öffentliche Freigabe",
+      "Power Apps → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Komponente nach Aufgabe wählen.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q106",
+    "lessonId": "L10",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Power Platform besonders sinnvoll?",
+    "options": [
+      "Umgebungen und Governance berücksichtigen.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Umgebungen und Governance berücksichtigen.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q111",
+    "lessonId": "L11",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Copilot Studio“ am besten zu?",
+    "options": [
+      "Zweck und Zielgruppe definieren.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Copilot Studio dient zur Gestaltung von Copilots mit Themen, Wissen, Aktionen und Governance. Ein guter Copilot hat klaren Zweck, abgegrenzte Quellen und sichere Aktionen.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q112",
+    "lessonId": "L11",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Wissen und Aktionen trennen.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Wissen und Aktionen trennen.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q113",
+    "lessonId": "L11",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Copilot Studio. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Zweck und Zielgruppe definieren.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Interner Projektassistent beantwortet Fragen aus freigegebenen Standards und startet nur genehmigte Aktionen.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q114",
+    "lessonId": "L11",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Copilot Studio am besten in die Praxis?",
+    "options": [
+      "Interner Projektassistent beantwortet Fragen aus freigegebenen Standards und startet nur genehmigte Aktionen.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Copilot Studio dient zur Gestaltung von Copilots mit Themen, Wissen, Aktionen und Governance. Ein guter Copilot hat klaren Zweck, abgegrenzte Quellen und sichere Aktionen.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q115",
+    "lessonId": "L11",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Copilot Studio?",
+    "options": [
+      "Copilot Studio → Zweck und Zielgruppe definieren.",
+      "Copilot Studio → keine Prüfung nötig",
+      "Copilot Studio → öffentliche Freigabe",
+      "Copilot Studio → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Zweck und Zielgruppe definieren.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q116",
+    "lessonId": "L11",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Copilot Studio besonders sinnvoll?",
+    "options": [
+      "Antworten und Berechtigungen testen.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Antworten und Berechtigungen testen.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q121",
+    "lessonId": "L12",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „KI-Strategie“ am besten zu?",
+    "options": [
+      "Geschäftsproblem zuerst.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "KI-Strategie verbindet Geschäftsziele, Prozesse, Daten, Menschen, Technik, Governance und messbaren Nutzen. Sie beginnt nicht mit einer Werkzeugliste.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q122",
+    "lessonId": "L12",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Piloten begrenzen.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Piloten begrenzen.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q123",
+    "lessonId": "L12",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu KI-Strategie. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Geschäftsproblem zuerst.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Truja priorisiert Projektwissen, Angebotsprüfung und Kommunikation nach Nutzen, Machbarkeit und Risiko.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q124",
+    "lessonId": "L12",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt KI-Strategie am besten in die Praxis?",
+    "options": [
+      "Truja priorisiert Projektwissen, Angebotsprüfung und Kommunikation nach Nutzen, Machbarkeit und Risiko.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "KI-Strategie verbindet Geschäftsziele, Prozesse, Daten, Menschen, Technik, Governance und messbaren Nutzen. Sie beginnt nicht mit einer Werkzeugliste.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q125",
+    "lessonId": "L12",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Use Case?",
+    "options": [
+      "Use Case → Geschäftsproblem zuerst.",
+      "Use Case → keine Prüfung nötig",
+      "Use Case → öffentliche Freigabe",
+      "Use Case → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Geschäftsproblem zuerst.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q126",
+    "lessonId": "L12",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei KI-Strategie besonders sinnvoll?",
+    "options": [
+      "Skalierung nach gemessener Wirkung.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Skalierung nach gemessener Wirkung.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q131",
+    "lessonId": "L13",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Agentenarchitektur“ am besten zu?",
+    "options": [
+      "Least Privilege für Tools.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Eine Agentenarchitektur definiert Orchestrierung, Modell, Werkzeuge, Wissenszugriff, Zustände, Identitäten, Policies, Observability und Fallbacks.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q132",
+    "lessonId": "L13",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Zustände und Übergaben explizit.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Zustände und Übergaben explizit.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q133",
+    "lessonId": "L13",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Agentenarchitektur. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Least Privilege für Tools.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Ein Angebotsprüfagent darf Angebote lesen und Abweichungen markieren, aber nichts bestellen oder versenden.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q134",
+    "lessonId": "L13",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Agentenarchitektur am besten in die Praxis?",
+    "options": [
+      "Ein Angebotsprüfagent darf Angebote lesen und Abweichungen markieren, aber nichts bestellen oder versenden.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Eine Agentenarchitektur definiert Orchestrierung, Modell, Werkzeuge, Wissenszugriff, Zustände, Identitäten, Policies, Observability und Fallbacks.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q135",
+    "lessonId": "L13",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Orchestrator?",
+    "options": [
+      "Orchestrator → Least Privilege für Tools.",
+      "Orchestrator → keine Prüfung nötig",
+      "Orchestrator → öffentliche Freigabe",
+      "Orchestrator → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Least Privilege für Tools.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q136",
+    "lessonId": "L13",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Agentenarchitektur besonders sinnvoll?",
+    "options": [
+      "Observability und Abbruch vorsehen.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Observability und Abbruch vorsehen.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q141",
+    "lessonId": "L14",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Multi-Agent-Systeme“ am besten zu?",
+    "options": [
+      "Nicht für jede Aufgabe erforderlich.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Multi-Agent-Systeme teilen Aufgaben auf spezialisierte Rollen. Der zusätzliche Koordinationsaufwand lohnt nur bei klarer Modularität und kontrollierbaren Übergaben.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q142",
+    "lessonId": "L14",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Übergabeformate standardisieren.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Übergabeformate standardisieren.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q143",
+    "lessonId": "L14",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Multi-Agent-Systeme. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Nicht für jede Aufgabe erforderlich.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Ein Analyseagent extrahiert Positionen, ein Prüfagent vergleicht Regeln, ein Berichtagent formuliert den Entwurf.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q144",
+    "lessonId": "L14",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Multi-Agent-Systeme am besten in die Praxis?",
+    "options": [
+      "Ein Analyseagent extrahiert Positionen, ein Prüfagent vergleicht Regeln, ein Berichtagent formuliert den Entwurf.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Multi-Agent-Systeme teilen Aufgaben auf spezialisierte Rollen. Der zusätzliche Koordinationsaufwand lohnt nur bei klarer Modularität und kontrollierbaren Übergaben.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q145",
+    "lessonId": "L14",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Multi-Agent?",
+    "options": [
+      "Multi-Agent → Nicht für jede Aufgabe erforderlich.",
+      "Multi-Agent → keine Prüfung nötig",
+      "Multi-Agent → öffentliche Freigabe",
+      "Multi-Agent → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Nicht für jede Aufgabe erforderlich.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q146",
+    "lessonId": "L14",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Multi-Agent-Systeme besonders sinnvoll?",
+    "options": [
+      "Fehler können sich vervielfachen.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Fehler können sich vervielfachen.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q151",
+    "lessonId": "L15",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Tool Calling“ am besten zu?",
+    "options": [
+      "Schema validieren.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Beim Tool Calling wählt ein Modell eine freigegebene Funktion und erzeugt strukturierte Parameter. Die Anwendung validiert, autorisiert, führt aus und gibt das Ergebnis zurück.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q152",
+    "lessonId": "L15",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Identität und Berechtigung prüfen.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Identität und Berechtigung prüfen.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q153",
+    "lessonId": "L15",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Tool Calling. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Schema validieren.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "„Projekt 1001694 suchen“ ruft eine lesende Suchfunktion auf. Änderungen erfordern separate Rechte und Freigabe.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q154",
+    "lessonId": "L15",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Tool Calling am besten in die Praxis?",
+    "options": [
+      "„Projekt 1001694 suchen“ ruft eine lesende Suchfunktion auf. Änderungen erfordern separate Rechte und Freigabe.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Beim Tool Calling wählt ein Modell eine freigegebene Funktion und erzeugt strukturierte Parameter. Die Anwendung validiert, autorisiert, führt aus und gibt das Ergebnis zurück.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q155",
+    "lessonId": "L15",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Function Calling?",
+    "options": [
+      "Function Calling → Schema validieren.",
+      "Function Calling → keine Prüfung nötig",
+      "Function Calling → öffentliche Freigabe",
+      "Function Calling → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Schema validieren.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q156",
+    "lessonId": "L15",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Tool Calling besonders sinnvoll?",
+    "options": [
+      "Seiteneffekte klar kennzeichnen.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Seiteneffekte klar kennzeichnen.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q161",
+    "lessonId": "L16",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „KI-Governance“ am besten zu?",
+    "options": [
+      "Governance muss praktisch nutzbar sein.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Governance legt freigegebene Systeme, Datenregeln, Rollen, Prüfpflichten, Dokumentation, Schulungen, Vorfälle und Lebenszyklus fest.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q162",
+    "lessonId": "L16",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Risiko bestimmt Kontrolldichte.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Risiko bestimmt Kontrolldichte.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q163",
+    "lessonId": "L16",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu KI-Governance. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Governance muss praktisch nutzbar sein.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Truja führt ein Tool-Register, Schutzklassen, Freigabestufen und regelmäßige Überprüfung ein.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q164",
+    "lessonId": "L16",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt KI-Governance am besten in die Praxis?",
+    "options": [
+      "Truja führt ein Tool-Register, Schutzklassen, Freigabestufen und regelmäßige Überprüfung ein.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Governance legt freigegebene Systeme, Datenregeln, Rollen, Prüfpflichten, Dokumentation, Schulungen, Vorfälle und Lebenszyklus fest.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q165",
+    "lessonId": "L16",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Governance?",
+    "options": [
+      "Governance → Governance muss praktisch nutzbar sein.",
+      "Governance → keine Prüfung nötig",
+      "Governance → öffentliche Freigabe",
+      "Governance → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Governance muss praktisch nutzbar sein.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q166",
+    "lessonId": "L16",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei KI-Governance besonders sinnvoll?",
+    "options": [
+      "Menschen bleiben verantwortlich.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Menschen bleiben verantwortlich.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q171",
+    "lessonId": "L17",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Automatisierungsdesign“ am besten zu?",
+    "options": [
+      "Happy Path reicht nicht.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Robustes Design berücksichtigt Datenverträge, Wiederholbarkeit, Timeouts, Fehlerwarteschlangen, Rollback, Monitoring und manuellen Ersatzbetrieb.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q172",
+    "lessonId": "L17",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Ausnahmen sind fachlicher Kern.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Ausnahmen sind fachlicher Kern.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q173",
+    "lessonId": "L17",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Automatisierungsdesign. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Happy Path reicht nicht.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Ein Rechnungsflow legt bei fehlender Projektnummer keinen Datensatz blind an, sondern erzeugt einen Klärfall.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q174",
+    "lessonId": "L17",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Automatisierungsdesign am besten in die Praxis?",
+    "options": [
+      "Ein Rechnungsflow legt bei fehlender Projektnummer keinen Datensatz blind an, sondern erzeugt einen Klärfall.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Robustes Design berücksichtigt Datenverträge, Wiederholbarkeit, Timeouts, Fehlerwarteschlangen, Rollback, Monitoring und manuellen Ersatzbetrieb.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q175",
+    "lessonId": "L17",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Retry?",
+    "options": [
+      "Retry → Happy Path reicht nicht.",
+      "Retry → keine Prüfung nötig",
+      "Retry → öffentliche Freigabe",
+      "Retry → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Happy Path reicht nicht.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q176",
+    "lessonId": "L17",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Automatisierungsdesign besonders sinnvoll?",
+    "options": [
+      "Betriebsfähigkeit ist Teil des Designs.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Betriebsfähigkeit ist Teil des Designs.",
+    "difficulty": 3
+  },
+  {
+    "id": "Q181",
+    "lessonId": "L18",
+    "type": "mc",
+    "prompt": "Welche Aussage trifft auf „Enterprise-Einführung“ am besten zu?",
+    "options": [
+      "Plattform und Governance gemeinsam entwickeln.",
+      "Es ist nur für professionelle Entwickler relevant.",
+      "Es benötigt keine Qualitätskontrolle.",
+      "Es ersetzt klare Prozesse."
+    ],
+    "answer": 0,
+    "explanation": "Skalierung benötigt Portfolio-Steuerung, Plattformstandards, Ownership, Schulung, Support, Messung und Change Management.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q182",
+    "lessonId": "L18",
+    "type": "tf",
+    "prompt": "Wahr oder falsch: Adoption aktiv begleiten.",
+    "options": [
+      "Wahr",
+      "Falsch"
+    ],
+    "answer": 0,
+    "explanation": "Adoption aktiv begleiten.",
+    "difficulty": 1
+  },
+  {
+    "id": "Q183",
+    "lessonId": "L18",
+    "type": "scenario",
+    "prompt": "Truja plant einen Anwendungsfall zu Enterprise-Einführung. Was ist der sinnvollste erste Schritt?",
+    "options": [
+      "Plattform und Governance gemeinsam entwickeln.",
+      "Sofort Vollzugriff auf produktive Systeme geben.",
+      "Ohne Test und Verantwortlichen starten.",
+      "Nur das Tool-Logo bewerten."
+    ],
+    "answer": 0,
+    "explanation": "Nach erfolgreichem Pilot werden Standards, Rollen, Betriebshandbuch und Schulungspaket definiert.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q184",
+    "lessonId": "L18",
+    "type": "practice",
+    "prompt": "Welche Lösung überträgt Enterprise-Einführung am besten in die Praxis?",
+    "options": [
+      "Nach erfolgreichem Pilot werden Standards, Rollen, Betriebshandbuch und Schulungspaket definiert.",
+      "Alle Entscheidungen automatisieren.",
+      "Berechtigungen ignorieren.",
+      "Nur Werbeaussagen dokumentieren."
+    ],
+    "answer": 0,
+    "explanation": "Skalierung benötigt Portfolio-Steuerung, Plattformstandards, Ownership, Schulung, Support, Messung und Change Management.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q185",
+    "lessonId": "L18",
+    "type": "match",
+    "prompt": "Welche Zuordnung passt zu Operating Model?",
+    "options": [
+      "Operating Model → Plattform und Governance gemeinsam entwickeln.",
+      "Operating Model → keine Prüfung nötig",
+      "Operating Model → öffentliche Freigabe",
+      "Operating Model → nur Marketing"
+    ],
+    "answer": 0,
+    "explanation": "Plattform und Governance gemeinsam entwickeln.",
+    "difficulty": 2
+  },
+  {
+    "id": "Q186",
+    "lessonId": "L18",
+    "type": "mc",
+    "prompt": "Welche Kontrollmaßnahme ist bei Enterprise-Einführung besonders sinnvoll?",
+    "options": [
+      "Nutzen und Risiken fortlaufend messen.",
+      "Keine Protokollierung",
+      "Unbegrenzte Rechte",
+      "Verzicht auf einen Fallback"
+    ],
+    "answer": 0,
+    "explanation": "Nutzen und Risiken fortlaufend messen.",
+    "difficulty": 3
+  }
+]
